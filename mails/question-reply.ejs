@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Answer Added Notification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f7f7f7;
+        padding: 20px;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .header h1 {
+        color: #4caf50;
+      }
+      .content {
+        margin-bottom: 20px;
+      }
+      .content p {
+        margin: 10px 0;
+      }
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="header">
+        <h1>Answer Added Successfully</h1>
+      </div>
+      <div class="content">
+        <p>Hi <%= name %>,</p>
+        <p>
+          We wanted to let you know that your answer has been successfully added
+          to the following question:
+        </p>
+        <p><strong>Question Title:</strong> <%= title %></p>
+        <p>Thank you for contributing to the discussion!</p>
+      </div>
+      <div class="footer">
+        <p>This is an automated message. Please do not reply to this email.</p>
+        <p>&copy; 2025 Your Platform Name</p>
+      </div>
+    </div>
+  </body>
+</html>

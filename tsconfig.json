@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", // Use Node's ESM module system
+    "moduleResolution": "NodeNext", // Ensure resolution aligns with Node's ESM rules
+    "target": "ESNext", // Target modern JavaScript
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow compatibility with CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true // Optional: Skip type checking of libraries
+  }
+}
