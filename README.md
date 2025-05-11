@@ -243,51 +243,6 @@ SMTP_PASSWORD=your_app_password
 
 After starting the server, the API will be accessible at `http://localhost:8000` (or the port specified in your environment variables).
 
-### API Documentation
-
-A Postman collection is available for testing all API endpoints:
-
-```bash
-# Import the Postman collection
-https://www.getpostman.com/collections/yourlinkhere
-```
-
-### Development Workflow
-
-```bash
-# Run in development mode with auto-reload
-npm run dev
-
-# Build TypeScript files
-npm run build
-
-# Run in production mode
-npm start
-
-# Run linting
-npm run lint
-
-# Fix linting issues
-npm run lint:fix
-```
-
-## 📦 Deployment
-
-### Production Deployment
-
-For production deployment, follow these steps:
-
-```bash
-# Set NODE_ENV to production
-export NODE_ENV=production  # Linux/Mac
-set NODE_ENV=production     # Windows
-
-# Build the TypeScript files
-npm run build
-
-# Start the server
-npm start
-```
 
 ## Author
 
